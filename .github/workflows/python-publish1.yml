@@ -32,4 +32,4 @@ jobs:
         python -m twine upload dist/*
       env:
         TWINE_USERNAME: __token__  # Utilisez "__token__" comme nom d'utilisateur pour l'API token
-        TWINE_PASSWORD: ${{ pypi-AgEIcHlwaS5vcmcCJDZlYjdiN2IyLTdiODgtNDRhMy04OWE1LTc3MGZiMmM5OTQ5OQACKlszLCJlZDEwODQyZS1lYTUzLTRkYzUtYjM5Yy03YzI1MTYzY2U2YTciXQAABiCL2zJY-q_6NexOnwp6L_DRt_2QjlkkWbQ_-C5nA4FXNQ}}  # Définissez le secret PYPI_API_TOKEN dans vos secrets GitHub
+        TWINE_PASSWORD: ${{ PIPY-API-TOKEN}}  # Définissez le secret PYPI_API_TOKEN dans vos secrets GitHub
